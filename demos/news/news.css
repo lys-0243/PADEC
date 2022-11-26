@@ -105,6 +105,12 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 	margin-bottom: 20px;
 }
 
+.flex-center {
+	display: flex;
+    justify-content: center;
+	flex-direction: column;
+}
+
 .entry-title a {
 	color: #333;
 	-webkit-transition: color .3s ease;

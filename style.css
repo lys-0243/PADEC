@@ -7650,7 +7650,7 @@ body:not(.device-touch) .portfolio {
 
 .entry-title h2 a:hover,
 .entry-title h3 a:hover,
-.entry-title h4 a:hover { color: #1ABC9C; }
+.entry-title h4 a:hover { color: #0011eb; }
 
 .entry-meta {
 	position: relative;
@@ -9387,6 +9387,9 @@ body:not(.device-touch) .button.button-full strong {
 
 .bg-red {
 	background-color: #b00404;
+}
+.bg-blue {
+	background-color: #0011eb;
 }
 
 .button-light.button-yellow:not(.button-border) { background-color: #ECD078 !important; }
