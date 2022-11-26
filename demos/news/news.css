@@ -5,14 +5,9 @@
 
 /* Customized Colors */
 :root {
-	--themecolor: #FF8600;
-	--travel: #6F42C1;
-	--tech: #007BFF;
-	--fashion: #E83E8C;
-	--sports: #DC3545;
-	--lifestyle: #13A774;
-	--food: #17A2B8;
-	--market: #FFC107;
+	--redcolor: #b00404;
+	--bluecolor: #0011eb;
+	--yellowcolor: #FFC107;
 	--light: #F8F9FA;
 	--dark: #343A40;
 }
@@ -22,49 +17,19 @@
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-home:hover > .menu-link,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-home.current > .menu-link,
 .menu-item.menu-color-home .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-home .sub-menu-container .menu-item.current > .menu-link { color: var(--themecolor, #FF8600) !important; }
+.menu-item.menu-color-home .sub-menu-container .menu-item.current > .menu-link { color: var(--bluecolor, #0011eb) !important; }
 
 .color-travel,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-travel:hover > .menu-link,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-travel.current > .menu-link,
 .menu-item.menu-color-travel .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-travel .sub-menu-container .menu-item.current > .menu-link { color: var(--travel, #6F42C1) !important; }
-
-.color-tech,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-tech:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-tech.current > .menu-link,
-.menu-item.menu-color-tech .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-tech .sub-menu-container .menu-item.current > .menu-link { color: var(--tech, #007BFF) !important; }
-
-.color-fashion,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-fashion:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-fashion.current > .menu-link,
-.menu-item.menu-color-fashion .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-fashion .sub-menu-container .menu-item.current > .menu-link { color: var(--fashion, #E83E8C) !important; }
-
-.color-sports,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-sports:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-sports.current > .menu-link,
-.menu-item.menu-color-sports .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-sports .sub-menu-container .menu-item.current > .menu-link { color: var(--sports, #DC3545) !important; }
-
-.color-lifestyle,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-lifestyle:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-lifestyle.current > .menu-link,
-.menu-item.menu-color-lifestyle .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-lifestyle .sub-menu-container .menu-item.current > .menu-link { color: var(--lifestyle, #13A774) !important; }
-
-.color-food,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-food:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-food.current > .menu-link,
-.menu-item.menu-color-food .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-food .sub-menu-container .menu-item.current > .menu-link { color: var(--food, #17A2B8) !important; }
+.menu-item.menu-color-travel .sub-menu-container .menu-item.current > .menu-link { color: var(--yellowcolor, #FFC107) !important; }
 
 .color-market,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-market:hover > .menu-link,
 body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-market.current > .menu-link,
 .menu-item.menu-color-market .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-market .sub-menu-container .menu-item.current > .menu-link { color: var(--market, #FFC107) !important; }
+.menu-item.menu-color-market .sub-menu-container .menu-item.current > .menu-link { color: var(--redcolor, #b00404) !important; }
 
 
 .navbar-nav.nav-sm .nav-link:hover,
@@ -74,42 +39,17 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 .bg-home,
 .bg-color-home.nav-link:hover,
 .menu-color-home > a::before,
-.bg-color-home.nav-link.active { background: var(--themecolor, #FF8600) !important; }
+.bg-color-home.nav-link.active { background: var(--bluecolor, #0011eb) !important; }
 
 .bg-travel,
 .bg-color-travel.nav-link:hover,
 .menu-color-travel > a::before,
-.bg-color-travel.nav-link.active { background: var(--travel, #6F42C1) !important; }
-
-.bg-tech,
-.bg-color-tech.nav-link:hover,
-.menu-color-tech > a::before,
-.bg-color-tech.nav-link.active { background: var(--tech, #007BFF) !important; }
-
-.bg-fashion,
-.bg-color-fashion.nav-link:hover,
-.menu-color-fashion > a::before,
-.bg-color-fashion.nav-link.active { background: var(--fashion, #E83E8C) !important; }
-
-.bg-sports,
-.bg-color-sports.nav-link:hover,
-.menu-color-sports > a::before,
-.bg-color-sports.nav-link.active { background: var(--sports, #DC3545) !important; }
-
-.bg-lifestyle,
-.bg-color-lifestyle.nav-link:hover,
-.menu-color-lifestyle > a::before,
-.bg-color-lifestyle.nav-link.active { background: var(--lifestyle, #13A774) !important; }
-
-.bg-food,
-.bg-color-food.nav-link:hover,
-.menu-color-food > a::before,
-.bg-color-food.nav-link.active { background: var(--food, #17A2B8) !important; }
+.bg-color-travel.nav-link.active { background: var(--yellowcolor, #FFC107) !important; }
 
 .bg-market,
 .bg-color-market.nav-link:hover,
 .menu-color-market > a::before,
-.bg-color-market.nav-link.active { background: var(--market, #FFC107) !important; }
+.bg-color-market.nav-link.active { background: var(--redcolor, #b00404) !important; }
 
 @media (max-width: 575px) {
 
@@ -292,25 +232,15 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 }
 
 /* Line Colors */
-.line-home { border-bottom-color:  var(--themecolor, #FF8600) !important; }
-.line-travel { border-bottom-color:  var(--travel, #6F42C1) !important; }
-.line-tech { border-bottom-color:  var(--tech, #007BFF) !important; }
-.line-fashion { border-bottom-color:  var(--fashion, #E83E8C) !important; }
-.line-sports { border-bottom-color:  var(--sports, #DC3545) !important; }
-.line-lifestyle { border-bottom-color:  var(--lifestyle, #13A774) !important; }
-.line-food { border-bottom-color:  var(--food, #17A2B8) !important; }
-.line-market { border-bottom-color:  var(--market, #FFC107) !important; }
+.line-home { border-bottom-color:  var(--redcolor, #b00404) !important; }
+.line-travel { border-bottom-color:  var(--bluecolor, #0011eb) !important; }
+.line-market { border-bottom-color:  var(--yellowcolor, #FFC107) !important; }
 .line-light { border-bottom-color:  var(--light, #F8F9FA) !important; }
 .line-dark { border-bottom-color:  var(--dark, #343A40) !important; }
 
-.line-home::after { border-top-color:  var(--themecolor, #FF8600) !important; }
-.line-travel::after { border-top-color:  var(--travel, #6F42C1) !important; }
-.line-tech::after { border-top-color:  var(--tech, #007BFF) !important; }
-.line-fashion::after { border-top-color:  var(--fashion, #E83E8C) !important; }
-.line-sports::after { border-top-color:  var(--sports, #DC3545) !important; }
-.line-lifestyle::after { border-top-color:  var(--lifestyle, #13A774) !important; }
-.line-food::after { border-top-color:  var(--food, #17A2B8) !important; }
-.line-market::after { border-top-color:  var(--market, #FFC107) !important; }
+.line-home::after { border-top-color:  var(--redcolor, #b00404) !important; }
+.line-travel::after { border-top-color:  var(--bluecolor, #0011eb) !important; }
+.line-market::after { border-top-color:  var(--yellowcolor, #FFC107) !important; }
 .line-light::after { border-top-color:  var(--light, #F8F9FA) !important; }
 .line-dark::after { border-top-color:  var(--dark, #343A40) !important; }
 

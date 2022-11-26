@@ -9385,6 +9385,10 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #53777A;
 }
 
+.bg-red {
+	background-color: #b00404;
+}
+
 .button-light.button-yellow:not(.button-border) { background-color: #ECD078 !important; }
 .button-3d.button-yellow:hover,
 .button-reveal.button-yellow:hover,
