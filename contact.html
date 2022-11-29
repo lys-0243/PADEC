@@ -6,55 +6,44 @@
 
     <!-- Stylesheets
 	============================================= -->
-  <link
-  href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
-  rel="stylesheet"
-/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-    <!-- Construction Demo Specific Stylesheet -->
-    <link
-      rel="stylesheet"
-      href="demos/construction/construction.css"
-      type="text/css"
-    />
-    <!-- / -->
 
     <link rel="stylesheet" href="css/dark.css" type="text/css" />
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css" type="text/css" />
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
+    <!-- Bootstrap Switch CSS -->
     <link
       rel="stylesheet"
-      href="demos/construction/css/fonts.css"
+      href="css/components/bs-switches.css"
       type="text/css"
     />
 
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
 
-    <link rel="stylesheet" href="css/colors.php?color=F18052" type="text/css" />
+    <!-- Seo Demo Specific Stylesheet -->
+    <link rel="stylesheet" href="css/colors.php?color=FE9603" type="text/css" />
+    <!-- Theme Color -->
+    <link rel="stylesheet" href="demos/seo/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="demos/seo/seo.css" type="text/css" />
+    <!-- / -->
 
     <!-- Document Title
 	============================================= -->
-    <title>About Us - Construction | Canvas</title>
-
-    <style>
-      .slider-caption-bg {
-        left: 20px;
-        bottom: 20px;
-      }
-    </style>
+    <title>Contact</title>
   </head>
 
   <body class="stretched">
     <!-- Document Wrapper
 	============================================= -->
     <div id="wrapper" class="clearfix">
-      <!-- Header============================================= -->
       <header id="header" class="header-size-sm" data-sticky-shrink="false">
         <div class="container">
           <div class="header-row justify-content-between">
@@ -152,7 +141,7 @@
             >
               <div class="header-misc">
                 <!-- Top Search
-							============================================= -->
+								============================================= -->
                 <div id="top-search" class="header-misc-icon">
                   <a href="#" id="top-search-trigger"
                     ><i class="icon-line-search"></i
@@ -175,7 +164,7 @@
               </div>
 
               <!-- Primary Navigation
-						============================================= -->
+							============================================= -->
               <nav class="primary-menu with-arrows">
                 <ul class="menu-container">
                   <li class="menu-item  menu-color-home">
@@ -191,7 +180,7 @@
                   </li>
 
                   <li
-                    class="menu-item current menu-color-market mega-menu mega-menu-small"
+                    class="menu-item menu-color-market mega-menu mega-menu-small"
                   >
                     <a class="menu-link" href="#"><div>Prestations</div></a>
                     <div
@@ -485,15 +474,17 @@
                     <a class="menu-link" href="#"><div>Réseau</div></a>
                   </li>
 
-                  <li class="menu-item menu-color-travel">
-                    <a class="menu-link" href="contact.html"><div>Contact</div></a>
+                  <li class="menu-item current menu-color-travel">
+                    <a class="menu-link" href="contact.html"
+                      ><div>Contact</div></a
+                    >
                   </li>
                 </ul>
 
                 <!-- Mobile Menu
-							============================================= -->
+								============================================= -->
                 <ul class="menu-container mobile-primary-menu">
-                  <li class="menu-item current menu-color-home">
+                  <li class="menu-item  menu-color-home">
                     <a class="menu-link" href="index.html"
                       ><div>Accueil</div></a
                     >
@@ -585,8 +576,10 @@
                   <li class="menu-item menu-color-tech">
                     <a class="menu-link" href="#"><div>Réseau</div></a>
                   </li>
-                  <li class="menu-item menu-color-fashion">
-                    <a class="menu-link" hyref="contact.html"><div>Contact</div></a>
+                  <li class="menu-item current menu-color-fashion">
+                    <a class="menu-link" href="contact.html"
+                      ><div>Contact</div></a
+                    >
                   </li>
                 </ul>
               </nav>
@@ -607,19 +600,29 @@
         </div>
         <div class="header-wrap-clone"></div>
       </header>
-      <!-- #header end -->
 
       <!-- Page Title
 		============================================= -->
-      <section id="page-title" class="bg-transparent">
-        <div class="container clearfix">
-          <h1>Demarches Administratives</h1>
-          <span>A Short Page Title Tagline</span>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-            <li class="breadcrumb-item"><a href="#">Prestations</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Demarches Administratives</li>
-          </ol>
+
+      <section
+        id="page-title"
+        class="page-title-parallax page-title-center page-title-dark "
+        style="
+          background-image: url('demos/seo/images/services/content_marketing-title.jpg');
+          background-size: cover;
+          padding: 120px 0;
+        "
+        data-bottom-top="background-position:0px 300px;"
+        data-top-bottom="background-position:0px -300px;"
+      >
+        <div id="particles-line"></div>
+
+        <div class="container clearfix mt-4">
+          <div class="badge rounded-pill border border-light text-light">
+            Prendre contact
+          </div>
+          <h1>Nous contacter</h1>
+          
         </div>
       </section>
       <!-- #page-title end -->
@@ -627,278 +630,77 @@
       <!-- Content
 		============================================= -->
       <section id="content">
-        <div class="content-wrap">
-          <div class="container clearfix">
-            <div class="row clearfix">
-              <div class="col-lg-6">
-                <div class="heading-block border-bottom-0 bottommargin-sm">
-                  <h3>Ce que nous faisons</h3>
-                  <span
-                    >Dramatically orchestrate multimedia based opportunities and
-                    client-based e-business. Competently create human
-                    capital.</span
-                  >
+        <div class="content-wrap pb-0">
+          <div class="container mb-3">
+            <div class="row justify-content-between">
+              <div class="col-lg-3 col-md-6">
+                <div class="feature-box flex-column text-center">
+                  <div class="fbox-image text-center mb-3">
+                    <img
+                      height="120"
+                      src="demos/seo/images/icons/seo.svg"
+                      alt="Feature Icon"
+                    />
+                  </div>
+                  <div class="fbox-content">
+                    <h3 class="nott ls0 mb-4">Adresse :</h3>
+                    <p class="text-smaller mb-3">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod.
+                    </p>
+                    <address>
+                      <a href="https://goo.gl/maps/V7bh66Y1vTsPV3hW9" target="_blank">
+                        <u
+                          >Avenue Batetela<br />
+                          05, Gombe - Golf</u
+                        >
+                      </a>
+                    </address>
+                  </div>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia tellus at scelerisque convallis. Nullam non dapibus urna. Nullam interdum purus eu erat tincidunt rutrum. Nulla euismod sapien diam, quis scelerisque urna malesuada at. Integer purus magna, feugiat vitae orci at, ultrices imperdiet eros. Nullam sit amet metus lorem. Morbi ullamcorper felis non consectetur mollis. Sed lobortis, massa in luctus ultricies, diam mi malesuada dui, ac vulputate justo dolor vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ac dictum quam, sed vulputate arcu.
-                </p>
-
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia tellus at scelerisque convallis. Nullam non dapibus urna. Nullam interdum purus eu erat tincidunt rutrum. Nulla euismod sapien diam, quis scelerisque urna malesuada at. Integer purus magna, feugiat vitae orci at, ultrices imperdiet eros. Nullam sit amet metus lorem. Morbi ullamcorper felis non consectetur mollis. Sed lobortis, massa in luctus ultricies, diam mi malesuada dui, ac vulputate justo dolor vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ac dictum quam, sed vulputate arcu.
-                </p>
-                
               </div>
 
-              <div class="col-lg-6">
-                <div
-                  class="fslider flex-thumb-grid grid-6"
-                  data-pagi="false"
-                  data-arrows="false"
-                  data-thumbs="true"
-                >
-                  <div class="flexslider">
-                    <div class="slider-wrap">
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/1.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/1.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Government Contraction
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/2.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/2.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Home Renovation
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/3.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/3.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Residential Construction
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/4.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/4.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Wooden Floor
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/5.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/5.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Repairing of Houses
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/6.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/6.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Building Renovaion
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/7.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/7.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Hightech Construction
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/8.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/8.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Hardwood Flooring
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/9.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/9.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Commercial Construction
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/10.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/10.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Repairing Of Roof
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/11.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/11.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Home Renovation
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slide"
-                        data-thumb="demos/construction/images/gallery/thumbs/12.jpg"
-                      >
-                        <img
-                          src="demos/construction/images/gallery/12.jpg"
-                          alt="Image"
-                        />
-                        <div class="bg-overlay">
-                          <div
-                            class="bg-overlay-content justify-content-start align-items-end"
-                          >
-                            <div
-                              class="h4 fw-light bg-light text-dark px-3 py-2"
-                            >
-                              Office Renovation
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="feature-box flex-column text-center">
+                  <div class="fbox-image text-center mb-3">
+                    <img
+                      height="120"
+                      src="demos/seo/images/icons/social.svg"
+                      alt="Feature Icon"
+                    />
+                  </div>
+                  <div class="fbox-content">
+                    <h3 class="nott ls0 mb-4">Contact Us:</h3>
+                    <p class="text-smaller mb-3">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod.
+                    </p>
+                    <a class="btn btn-link" href="mailto:info@canvas.com"
+                      ><u>noreply@canvas.com</u></a
+                    >
+                    <a class="btn btn-link" href="tel:10-22-33445566"
+                      ><u>(10) 22 33445566</u></a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="feature-box flex-column text-center">
+                  <div class="fbox-image text-center mb-3">
+                    <img
+                      height="120"
+                      src="demos/seo/images/icons/group.svg"
+                      alt="Feature Icon"
+                    />
+                  </div>
+                  <div class="fbox-content">
+                    <h3 class="nott ls0 mb-4">Live Chat:</h3>
+                    <p class="text-smaller mb-3">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod.
+                    </p>
+                    <a href="#"><u>Click Here</u></a>
                   </div>
                 </div>
               </div>
@@ -907,245 +709,133 @@
 
           <div class="clear"></div>
 
+
+
+          <!-- Form Section
+				============================================= -->
           <div
-            class="section row p-0 align-items-stretch dark topmargin clearfix"
+            class="section mt-0 mb-3"
+            style="
+              background: url('demos/seo/images/sections/1.jpg') no-repeat
+                center center;
+              background-size: cover;
+              padding: 100px 0;
+            "
           >
-            <div
-              class="col-lg-4 d-none d-md-block"
-              style="
-                background: url('demos/construction/images/services/parallax.jpg')
-                  center center repeat;
-                background-size: cover;
-              "
-            >
-              <div>&nbsp;</div>
-            </div>
-            <div class="col-lg-8">
-              <div class="col-padding">
-                <div class="row align-items-stretch clearfix">
-                  <div class="col-md-6 bottommargin">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/building.png"
-                            alt="Concrete Developments"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Concrete Developments</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
+            <div class="container">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-md-3">
+                  <div class="heading-block border-bottom-0 bottommargin-sm">
+                    <h3 class="nott ls0">Nous laisser un message</h3>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Deserunt dolore voluptatem assumenda quae possimus sunt
+                    dignissimos tempora officia.
+                  </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="card shadow-sm">
+                    <div class="card-body">
+                      
+                      <div class="form-widget">
+                        <div class="form-result"></div>
+                        <form
+                          class="row mb-0"
+                          id="template-contactform"
+                          name="template-contactform"
+                          action="include/form.php"
+                          method="post"
+                        >
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-name"
+                              >Nom complet:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-name"
+                              name="template-contactform-name"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-3">
+                            <label for="template-contactform-email"
+                              >Adresse Email:*</label
+                            >
+                            <input
+                              type="email"
+                              id="template-contactform-email"
+                              name="template-contactform-email"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >Téléphone:*</label
+                            >
+                            <input
+                              type="text"
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            />
+                          </div>
+
+						  <div class="col-12 form-group mb-4">
+                            <label for="template-contactform-website"
+                              >Message:*</label
+                            >
+							
+                            <textarea
+                              
+                              id="template-contactform-website"
+                              name="template-contactform-website"
+                              class="form-control input-sm required"
+                              value=""
+                            > </textarea>
+                          </div>
+
+                          <div class="col-12 form-group mb-0">
+                            <button
+                              class="button button-rounded w-100 nott ls0 m-0"
+                              type="submit"
+                              id="template-contactform-submit"
+                              name="template-contactform-submit"
+                              value="submit"
+                            >
+                              Envoyer
+                            </button>
+                          </div>
+
+                          <input
+                            type="hidden"
+                            name="prefix"
+                            value="template-contactform-"
+                          />
+                        </form>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 bottommargin">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/bank.png"
-                            alt="Finance Assistance"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Finance Assistance</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 bottommargin">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/traffic-cone.png"
-                            alt="Smart Builders"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Smart Builders</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 bottommargin">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/paint-brush.png"
-                            alt="Quality Infrastructure"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Quality Infrastructure</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/drawer.png"
-                            alt="Interiorly Designed"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Interiorly Designed</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="feature-box fbox-plain">
-                      <div class="fbox-icon">
-                        <a href="#"
-                          ><img
-                            src="demos/construction/images/icons/paper-money.png"
-                            alt="Cost Effective Solutions"
-                        /></a>
-                      </div>
-                      <div class="fbox-content">
-                        <h3>Cost Effective Solutions</h3>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Autem minima, facere distinctio placeat.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                </div>
+
+                <div class="col-md-4 mt-5 mt-md-0 center">
+                  
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="container clearfix">
-            <div class="row clearfix">
-              <div class="col-lg-7">
-                <h4>Our Dedicated Team</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia tellus at scelerisque convallis. Nullam non dapibus urna. Nullam interdum purus eu erat tincidunt rutrum. Nulla euismod sapien diam, quis scelerisque urna malesuada at. Integer purus magna, feugiat vitae orci at, ultrices imperdiet eros. Nullam sit amet metus lorem. Morbi ullamcorper felis non consectetur mollis. Sed lobortis, massa in luctus ultricies, diam mi malesuada dui, ac vulputate justo dolor vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ac dictum quam, sed vulputate arcu.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia tellus at scelerisque convallis. Nullam non dapibus urna. Nullam interdum purus eu erat tincidunt rutrum. Nulla euismod sapien diam, quis scelerisque urna malesuada at. Integer purus magna, feugiat vitae orci at, ultrices imperdiet eros. Nullam sit amet metus lorem. Morbi ullamcorper felis non consectetur mollis. Sed lobortis, massa in luctus ultricies, diam mi malesuada dui, ac vulputate justo dolor vel nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ac dictum quam, sed vulputate arcu.</p>
-
-                <div
-                  id="oc-posts"
-                  class="owl-carousel posts-carousel carousel-widget"
-                  data-margin="20"
-                  data-nav="true"
-                  data-pagi="true"
-                  data-items-xs="2"
-                  data-items-xl="3"
-                >
-                
-                </div>
-              </div>
-
-              <div class="col-lg-5">
-                <h4>Ils nous ont fait confiance</h4>
-
-                <p>
-                  Nous avons aidé beaucoup à ........... <br/>
-                  Faites-nous confiance comme eux
-                </a>
-                </p>
-
-                <ul class="clients-grid grid-2 grid-sm-3 mb-0">
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/1.png" alt="Clients"
-                    /></a>
-                  </li>
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/2.png" alt="Clients"
-                    /></a>
-                  </li>
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/3.png" alt="Clients"
-                    /></a>
-                  </li>
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/4.png" alt="Clients"
-                    /></a>
-                  </li>
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/5.png" alt="Clients"
-                    /></a>
-                  </li>
-                  <li class="grid-item" style="padding: 20px">
-                    <a href="#"
-                      ><img src="images/clients/6.png" alt="Clients"
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <hr>
-<!--           
-          <div class="section bg-transparent mt-0 p-0 footer-stick">
-            <div class="container clearfix">
-              <div class="row">
-                <div class="col-lg-3">
-                  
-                </div>
-                <div class="col-lg-6 topmargin-sm">
-                  <div class="heading-block border-bottom-0">
-                    <h2>You're in Good Hands.</h2>
-                    <span class="ls1"
-                      >Five Points that define Our Reliability.</span
-                    >
-                  </div>
-
-                
-                </div>
-
-                <div class="col-lg-3">
-                  
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          
-
-          <a
-            href="#"
-            class="button button-3d border-bottom-0 topmargin-sm button-full center text-end bottommargin fw-light font-primary"
-            style="font-size: 26px"
-          >
-            <div class="container clearfix">
-              <strong>Travailler avec nous</strong>
-              <i class="icon-angle-right" style="top: 3px"></i>
-            </div>
-          </a>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1406.6123407948971!2d15.2784315322811!3d-4.316633819682851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33da1b39168f%3A0x6f0d0fa7161555f2!2sFondation%20Entreprendre!5e0!3m2!1sfr!2scd!4v1669704009089!5m2!1sfr!2scd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
       <!-- #content end -->
 
-      <!-- Footer
-		============================================= -->
       <!-- Footer============================================= -->
       <footer id="footer" class="dark" style="background-color: #1f2024">
         <div class="container">
@@ -1247,7 +937,7 @@
             </div>
 
             <!-- Footer Widget 2
-						============================================= -->
+							============================================= -->
             <div class="col-lg-2 col-sm-6 mb-5 mb-lg-0">
               <h4 class="mb-3 mb-sm-4">Tag Cloud</h4>
               <div class="tagcloud">
@@ -1270,7 +960,7 @@
             </div>
 
             <!-- Footer Widget 3
-					============================================= -->
+						============================================= -->
             <div class="col-lg-3 col-sm-6 mb-5 mb-sm-0">
               <div class="widget widget_links clearfix">
                 <h4 class="mb-3 mb-sm-4">Liens importants</h4>
@@ -1288,7 +978,7 @@
             </div>
 
             <!-- Footer Widget 4
-					============================================= -->
+						============================================= -->
             <div class="col-lg-3 col-sm-6 mb-0">
               <div class="widget widget_links clearfix">
                 <h4 class="mb-3 mb-sm-4">Passerelle des congolais</h4>
@@ -1312,7 +1002,7 @@
         </div>
 
         <!-- Copyrights
-			============================================= -->
+				============================================= -->
         <div id="copyrights">
           <div class="container clearfix">
             <div class="row justify-content-center">
@@ -1339,6 +1029,14 @@
 	============================================= -->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.min.js"></script>
+
+    <!-- Main Particles Js
+	============================================= -->
+    <script src="js/particles/particles.min.js"></script>
+    <script src="js/particles/particles-line.js"></script>
+    <!-- Particles Line -->
+
+    <script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
 
     <!-- Footer Scripts
 	============================================= -->
