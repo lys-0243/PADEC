@@ -25,11 +25,11 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 .menu-item.menu-color-travel .sub-menu-container .menu-item:hover > .menu-link,
 .menu-item.menu-color-travel .sub-menu-container .menu-item.current > .menu-link { color: var(--yellowcolor, #FFC107) !important; }
 
-.color-market,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-market:hover > .menu-link,
-body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-market.current > .menu-link,
-.menu-item.menu-color-market .sub-menu-container .menu-item:hover > .menu-link,
-.menu-item.menu-color-market .sub-menu-container .menu-item.current > .menu-link { color: var(--redcolor, #b00404) !important; }
+.color-red,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-red:hover > .menu-link,
+body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .menu-item.menu-color-red.current > .menu-link,
+.menu-item.menu-color-red .sub-menu-container .menu-item:hover > .menu-link,
+.menu-item.menu-color-red .sub-menu-container .menu-item.current > .menu-link { color: var(--redcolor, #b00404) !important; }
 
 
 .navbar-nav.nav-sm .nav-link:hover,
@@ -47,9 +47,9 @@ body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) .menu-container > .me
 .bg-color-travel.nav-link.active { background: var(--yellowcolor, #FFC107) !important; }
 
 .bg-market,
-.bg-color-market.nav-link:hover,
-.menu-color-market > a::before,
-.bg-color-market.nav-link.active { background: var(--redcolor, #b00404) !important; }
+.bg-color-red.nav-link:hover,
+.menu-color-red > a::before,
+.bg-color-red.nav-link.active { background: var(--redcolor, #b00404) !important; }
 
 @media (max-width: 575px) {
 
